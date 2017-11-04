@@ -11,7 +11,9 @@ https://www.microsoft.com/net/download/core
 
 2. Após baixar o projeto do repositório, executar o comando dentro da raiz do projeto
 > dotnet restore
+
 > dotnet build
+
 > dotnet run
 
 #Instruções de uso (Comandos): 
