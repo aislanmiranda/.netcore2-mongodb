@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\a82.Application\a82.Application.csproj" />
+    <ProjectReference Include="..\a82.Domain\a82.Domain.csproj" />
+    <ProjectReference Include="..\a82.Data\a82.Data.csproj" />
+  </ItemGroup>
+
+</Project>
