@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # aspnetcore2
 Projeto ASP.NET Core 2.0
 
@@ -40,10 +40,8 @@ No prompt de comando acesse a pasta do seu projeto:
 pasta-do-projeto\src\Demo.Data> dotnet ef --startup-project ..\Demo.Api\Demo.Api.csproj --project .\Demo.Data.csproj  migrations add AddCategory
 depois execute > dotnet ef --startup-project ..\Demo.Api\Demo.Api.csproj --project .\Demo.Data.csproj database update
 ```"
-=======
 # AspNetCore2MongoDb
 Projeto com estrutura AspNet Core 2 com MongoDb
 ```
 O exemplo mostra um crud utilizando webapi - Métodos para teste na ProductController.
 ```
->>>>>>> c086c64c92193490a82b9592acb30c75c5d24e81
